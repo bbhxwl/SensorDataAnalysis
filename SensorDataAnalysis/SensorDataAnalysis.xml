@@ -12,6 +12,11 @@
             <param name="d"></param>
             <returns></returns>
         </member>
+        <member name="T:SensorDataAnalysis.NineAxisSensorModel">
+            <summary>
+            九轴
+            </summary>
+        </member>
         <member name="P:SensorDataAnalysis.NineAxisSensorModel.AccelerationX">
             <summary>
             加速度X

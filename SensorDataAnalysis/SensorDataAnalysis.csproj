@@ -6,6 +6,8 @@
     <Company>爱德励</Company>
     <Description>解析一些常用的传感器数据，目前只有WT901BLECL</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageProjectUrl>https://github.com/bbhxwl/SensorDataAnalysis</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/bbhxwl/SensorDataAnalysis</RepositoryUrl>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
