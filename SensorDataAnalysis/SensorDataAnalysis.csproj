@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>斌斌</Authors>
+    <Company>爱德励</Company>
+    <Description>解析一些常用的传感器数据，目前只有WT901BLECL</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>D:\Project\SensorDataAnalysis\SensorDataAnalysis\SensorDataAnalysis.xml</DocumentationFile>
+  </PropertyGroup>
+
+</Project>

@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SensorDataAnalysis</name>
+    </assembly>
+    <members>
+        <member name="M:SensorDataAnalysis.DataAnalysis.NineAxis(System.Byte[],SensorDataAnalysis.DeviceType)">
+            <summary>
+            获取九轴传感器的数据，加速度、角速度、角度 数据 
+            </summary>
+            <param name="bit"></param>
+            <param name="d"></param>
+            <returns></returns>
+        </member>
+        <member name="P:SensorDataAnalysis.NineAxisSensorModel.AccelerationX">
+            <summary>
+            加速度X
+            </summary>
+        </member>
+        <member name="P:SensorDataAnalysis.NineAxisSensorModel.AccelerationY">
+            <summary>
+            加速度Y
+            </summary>
+        </member>
+        <member name="P:SensorDataAnalysis.NineAxisSensorModel.AccelerationZ">
+            <summary>
+            加速度Z
+            </summary>
+        </member>
+        <member name="P:SensorDataAnalysis.NineAxisSensorModel.AngularVelocityX">
+            <summary>
+            角速度X
+            </summary>
+        </member>
+        <member name="P:SensorDataAnalysis.NineAxisSensorModel.AngularVelocityY">
+            <summary>
+            角速度Y
+            </summary>
+        </member>
+        <member name="P:SensorDataAnalysis.NineAxisSensorModel.AngularVelocityZ">
+            <summary>
+            角速度Z
+            </summary>
+        </member>
+        <member name="P:SensorDataAnalysis.NineAxisSensorModel.AngleX">
+            <summary>
+            角度X
+            </summary>
+        </member>
+        <member name="P:SensorDataAnalysis.NineAxisSensorModel.AngleY">
+            <summary>
+            角度Y
+            </summary>
+        </member>
+        <member name="P:SensorDataAnalysis.NineAxisSensorModel.AngleZ">
+            <summary>
+            角度Z
+            </summary>
+        </member>
+    </members>
+</doc>
